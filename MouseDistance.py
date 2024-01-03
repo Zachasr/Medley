@@ -5,6 +5,8 @@ Last Updated on Wed Jan 03 11:26:30 2024
 
 @author: Alexis.Vivien
 Display Mouse Location, Speed, Total Day Distance and Number of Clicks
+
+Able to deploy as an executable from anaconda command prompt : (python39) C:\users\Alexis.Vivien\Documents\Python Scripts\Exercices pyinstaller --onefile MouseDistance.py
 """
 
 import pyautogui, time
