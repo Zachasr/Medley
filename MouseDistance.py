@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Sep 22 09:10:30 2023
+Last Updated on Wed Jan 03 11:26:30 2024
 
 @author: Alexis.Vivien
-Compute the total mouse distance of the day
+Display Mouse Location, Speed, Total Day Distance and Number of Clicks
 """
 
 import pyautogui, time
@@ -21,8 +22,8 @@ v = np.zeros(10)
 ind = 0
 dt = 0.01 # seconds
 x, y, x_tmp, y_tmp = 0, 0, 0, 0
-ds = 51/1920     
-boolCheck = True                                                               # = 0.0265625 cm per pixel  
+ds = 51/1920                              # = 0.0265625 cm per pixel  
+boolCheck = True                                                              
 
 class Printer():
     """Print things to stdout on one line dinamically"""
